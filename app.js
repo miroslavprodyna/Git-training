@@ -5,5 +5,6 @@ button.addEventListener('click', function(){
     let count = word.length;
     let outputDiv = document.getElementById('output');
     print("line of code")
+    print("another line of code")
     outputDiv.innerHTML = `<h1>${count}</h1>`
 });
